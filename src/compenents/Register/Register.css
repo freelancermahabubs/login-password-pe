@@ -1,0 +1,11 @@
+.password-filed {
+  position: relative;
+}
+.eye {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  margin-top: 30px;
+  margin-right: 12px;
+}
