@@ -17,9 +17,8 @@ import {
   signOut,
 } from "firebase/auth";
 
-const auth = getAuth(app);
-
 const Login = () => {
+  const auth = getAuth(app);
   const [passwordShown, setPasswordShown] = useState(false);
   const [success, setSuccess] = useState("");
   const [error, setError] = useState("");
